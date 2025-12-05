@@ -1,0 +1,24 @@
+{
+    "directories": [
+        "dir_A",
+        "dir_B",
+        "dir_C"
+    ],
+    "operations": [
+        [
+            "dir_A",
+            "dir_B"
+        ],
+        [
+            "dir_B",
+            "dir_A"
+        ],
+        [
+            "dir_A",
+            "dir_C"
+        ]
+    ],
+    "threads": 2,
+    "hold_time": 1.0,
+    "timeout": 2.0
+}
